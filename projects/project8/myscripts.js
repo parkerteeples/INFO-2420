@@ -30,7 +30,7 @@ if (document.images) {
 			
 		);
 			
-		var imgPath = "images/fullsize/";
+		var imgPath = "Images/Fullsize/";
 		
 		function swapImage(imgID) {
 
