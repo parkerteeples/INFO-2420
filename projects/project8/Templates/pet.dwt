@@ -24,7 +24,7 @@
 
 		</a>
 	
-		<img src="../images/RentAPetBanner.jpg" alt="Rent a Pet Banner">
+		<img src="../images/rentapetbanner.jpg" alt="Rent a Pet Banner">
 	
 	</header>
 	
@@ -37,6 +37,7 @@
 			<a href="../survey.html">Survey Page&nbsp;</a><br>
 		</nav>
 		<!-- TemplateBeginEditable name="right" -->
+		
         <article>
           <h1>Welcome to Rent A Pet!</h1>
           
