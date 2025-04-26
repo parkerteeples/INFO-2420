@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Home - Rent a Pet</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../Mystyles.css" type="text/css">
+	
+	<script type="text/javascript" src="../myscripts.js"></script>
+	
+<link rel="stylesheet" href="../print.css" type="text/css" media="print">
+
+</head>
+
+<body onload="preloadImages()">
+	<header>
+		
+		<a href="../index.html" onMouseOver="document.logo.src=logo2.src;"
+		onMouseOut="document.logo.src=logo1.src;">
+
+		<img src="../images/logo1.jpg" width="150" height="150" 
+		name="logo" alt="logo" style="border:none;" class="logoleft"/>
+
+		</a>
+	
+		<img src="../Images/RentAPetBanner.jpg" alt="Rent a Pet Banner">
+	
+	</header>
+	
+	<section>
+		<nav>
+			<a href="../Home.html">Home Page&nbsp;&nbsp;&nbsp;</a><br>
+			<a href="../aboutus.html">About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+			<a href="../tributes.html">Tributes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><br>
+			<a href="../favorites.html">My Favorites</a><br>
+			<a href="../survey.html">Survey Page&nbsp;</a><br>
+		</nav>
+		<!-- TemplateBeginEditable name="Right" -->
+		<article>
+		  <h1>Welcome to Rent A Pet!</h1>
+		  <p>If you love to interact with pets like we do, you should enjoy looking around this
+		    site. Take a look at our Pet Profiles and take the opportunity to complete our
+		    survey. </p>
+		  <div id="thumbs"> <img src="../Images/Thumbnails/Image1Sm.jpg" alt="A Cat and a Dog" onMouseOver="swapImage(0);" /> <img src="../Images/Thumbnails/Image2Sm.jpg" alt="A Snake" onMouseOver="swapImage(1);" /> <img src="../Images/Thumbnails/Image3Sm.jpg" alt="A Dog doing tricks" onMouseOver="swapImage(2);" /> <img src="../Images/Thumbnails/Image4Sm.jpg" alt="Fuzzy Cat" onMouseOver="swapImage(3);" /> </div>
+		  <div id="image"> <img id="theImage" src="../Images/FullSize/Image1Lg.jpg" alt="A Cat and a Dog" />
+		    <h3 id="bottomText">A Cat and a Dog</h3>
+	      </div>
+		  <hr>
+		  <h2>What Out Customers Have been Saying</h2>
+		  <img src="../Images/GermanShephard2Small.jpg" alt="A Woman with a German Shephard" width="100" class="auto-style">
+		  <p>I'm a single college guy and live in an apartment with 3 other guys.  I always wanted to have a large breed of dog that would be a companion to take running or play catch with in the park. <a href="../tributes.html">more...</a> </p>
+	    </article>
+		<!-- TemplateEndEditable --></section>
+
+	<footer>
+	  <p>Contact Us By Email: <a href="mailto:11032795@uvu.edu">Parker Teeples</a></p>
+		<p>This web site has been created soley for educational purposes</p>
+	</footer>
+	
+</body>
+</html>

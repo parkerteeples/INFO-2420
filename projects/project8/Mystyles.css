@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #ADCFE7;
+	font-family: Georgia, serif;
+	font-size:medium;
+	color:#4d3200;
+}
+
+header{
+	width: 900px;
+	height: 200px;
+	background-color: #FDA787;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+}
+
+section{
+	width: 900px;
+	background-image: url("Images/2colback.jpg");
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav{
+	float: left;
+	width: 250px;
+}
+
+article{
+	float: left;
+	width: 650px;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	background-color: #FDA787;
+	margin: auto;
+}
+
+.logoleft{
+	float: left;
+	padding-top: 0px;
+	padding-left: 55px;
+}
+
+nav a{
+	border: 6px inset #FDA787;
+	background-color:#FF8051;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 35px;
+	color:#4d3200;
+	text-decoration: none;
+	paddint-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	font-family: Vivaldi;
+}
+
+nav a:hover{
+	color: #ffd380;
+	border: 2px outset #CCCCCC;
+}
+
+h1{
+	color: #8B2500;
+	text-align: center;
+	font-size: xx-large;
+}
+
+p{
+	color: #6cc0d;
+}
+.auto-style {
+	float: left;
+	height: 150px;
+	paddint: 0px 15px 10px 80px;
+	margin-left: 29px;
+}
+
+h2{
+	color: #8B2500;
+}
+
+h3{
+	color: #8B2500;
+}
+
+hr{
+	border-style: solid;
+	border-color: #c6cddc;
+	border-width: 1px;
+}
+
+.left{
+	float: left;
+	padding-right: 20px;
+}
+
+.right{
+	float: right;
+	padding-left: 20px;
+}
+
+li{
+	text-align: left;
+}
+
+.advdis{
+	text-align: left;
+	margin-left: 10px;
+}
+
+table{
+	width: 100%;
+	border-radius: 10px;
+	border: 3px solid #000;
+	background-color: #6FB3E3;
+}
+
+caption{
+	color: #862400;
+	background-color: #6FB3E3;
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 10px;
+	border: 3px solid #000;
+}
+
+th{
+	border: 3px solid #000;
+	border-radius: 10px;
+	background-color: #FFAD8F;
+	height: 40px;
+}
+
+td{
+	border: 3px solid #000;
+	text-align: center;
+	border-radius: 8px;
+	background-color: #FFEEBB;
+	height: 40px;
+}
+
+#imgmap{
+	text-align: center;
+  	margin-top: 40px;
+}
